@@ -38,6 +38,7 @@ gem 'bulma-rails', '~> 0.9.4'
 # easy forms
 gem 'simple_form', '~> 5.2'
 
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
@@ -74,7 +75,7 @@ group :development do
   gem 'guard', '~> 2.18'
 
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
-  gem 'guard-livereload', '~> 2.5', '>= 2.5.2'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
