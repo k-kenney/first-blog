@@ -27,6 +27,13 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# make errors better looking
+gem 'better_errors', '->2.4'
+
+# use scss for style sheets
+gem 'sass-rails', '~> 6.0'
+#
+gem 'bulma-rails', '~> 0.9.4'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
