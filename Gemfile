@@ -77,6 +77,9 @@ group :development do
   # Guard::LiveReload automatically reloads your browser when 'view' files are modified.
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
+  # make errors better looking
+  gem 'better_errors', '~> 2.9', '>= 2.9.1'
+
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
 
